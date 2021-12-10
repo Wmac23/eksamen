@@ -1,0 +1,161 @@
+/* General */
+body {
+    background: #1A2226;
+}
+
+li {
+    list-style-type: none;
+    text-decoration-color: none;
+    color: #ffffff;
+}
+
+a {
+    font-family: 'Concert One', cursive;
+    text-decoration-color: none;
+}
+
+canvas {
+    border: solid 10px #0DB8DE;
+    border-radius: 10px;
+}
+
+p {
+    color: white;
+    font-family: 'Concert One', cursive;
+}
+
+h1,
+h2,
+h3,
+h5 {
+    color: #ffffff;
+    font-family: 'Concert One', cursive;
+}
+
+p {
+    color: white;
+    font-family: 'Concert One', cursive;
+}
+
+img {
+    margin: auto;
+    margin-top: 50px;
+}
+
+button {
+    color: #ffffff;
+    background: #0DB8DE;
+    border-radius: 5px;
+    border: #0DB8DE;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 7px;
+}
+
+label {
+    color: #ffffff;
+    font-family: 'Concert One', cursive;
+}
+
+table {
+    color: #FFFFFF;
+    border: solid 4px #0DB8DE;
+    margin: 15px;
+}
+
+input[type=text],
+[type=password] {
+    background: #1A2226;
+    border: none;
+    border-bottom: 2px solid #0DB8DE;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-left: 0px;
+    font-family: 'Concert One', cursive;
+    color: #ECF0F5;
+}
+
+input[type=submit] {
+    color: #ffffff;
+    background: #0DB8DE;
+    border-radius: 5px;
+    border: #0DB8DE;
+    font-family: 'Concert One', cursive;
+    padding: 7px;
+}
+
+/* Classes */
+.body {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.nav-link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.blockcraft {
+    font-family: 'Press Start 2P', cursive;
+}
+
+.navbar {
+    background: #0DB8DE;
+    font-family: 'Concert One', cursive;
+}
+
+.card {
+    background: #1A2226;
+    border: none;
+    margin: auto;
+}
+
+.card-body {
+    margin-top: 75px;
+    text-align: center;
+}
+
+.leaderboard {
+    margin-top: 20px;
+}
+
+.navbar-brand {
+    margin-top: -50px;
+    margin-left: 20px;
+}
+
+
+.fail {
+    color: red;
+    font-style: italic;
+}
+
+.responsive {
+    width: 60%;
+    height: auto;
+}
+
+
+/* @media */
+@media only screen and (max-width: 1000px) {
+    canvas {
+        height: 500px;
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    canvas {
+        height: 325px;
+        width: 325px;
+    }
+}
+
+
+
+
+
+
+
+
+
